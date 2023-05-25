@@ -44,10 +44,11 @@ public class Main {
         var totalHours=640;
         var workingDay=8;
         var employees=totalHours/workingDay;
-        System.out.println(employees);
+        System.out.println("Всего работников в компании "+employees+" человек.");
         employees=employees+94;
         workingDay=totalHours/employees;
-        System.out.println(workingDay);
+        System.out.print("Если в компании работает "+employees+" человека,то всего "+ workingDay);
+        System.out.println(" часов работы может быть поделено между сотрудниками.");
 
     }
 }
