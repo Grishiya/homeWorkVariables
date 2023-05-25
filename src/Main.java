@@ -40,5 +40,6 @@ public class Main {
         System.out.println(differenceWeight);
         var differenceWeight2=boxerWeight2%boxerWeight1;
         System.out.println(differenceWeight2);
+        System.out.println("Вычитание из большего веса меньшего,сделал вычислением ранее");
     }
 }
