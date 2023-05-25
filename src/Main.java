@@ -41,5 +41,13 @@ public class Main {
         var differenceWeight2=boxerWeight2%boxerWeight1;
         System.out.println(differenceWeight2);
         System.out.println("Вычитание из большего веса меньшего,сделал вычислением ранее");
+        var totalHours=640;
+        var workingDay=8;
+        var employees=totalHours/workingDay;
+        System.out.println(employees);
+        employees=employees+94;
+        workingDay=totalHours/employees;
+        System.out.println(workingDay);
+
     }
 }
